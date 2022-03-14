@@ -1,0 +1,32 @@
+{% extends 'admin/master.html' %}
+
+{% block body %}
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <i class="fa fa-bell fa-fw"></i> Log out Page
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div class="list-group">
+                                <a href="/logout" class="list-group-item">
+                                    <button type=" none"  style="background-color: #555555;
+                                    border: none;
+                                    color: white;
+                                    padding: 15px 32px;
+                                    text-align: center;
+                                    text-decoration: none;
+                                    display: inline-block;
+                                    border-radius: 5px;
+                                    font-size: 12px;">
+                                        LOG OUT
+                                    </button>
+                                    <span class="pull-right text-muted small"><em>You are logging out</em>
+                                    </span>
+                                </a>
+                                
+                            </div>
+                            
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+{% endblock body %}
